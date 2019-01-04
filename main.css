@@ -2,12 +2,22 @@ body {
   background-color: #000000;
 }
 
+.inner-text {
+  width: 50px;
+  margin: 15px;
+  overflow: hidden;
+}
+
 .square {
   width: 80px;
   height: 80px;
   background-color: #ffffff;
   margin: 30px;
   box-shadow: 0 0 4px rgba(0,0,0,.4);
+  animation-name: spin;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
 
 @keyframes spin {
