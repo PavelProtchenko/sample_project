@@ -22,6 +22,7 @@ body {
 }
 
 .form {
+  visibility: hidden;
   display: block;
   border: solid 3px #f0f0f0;
   background-color: #59c3b1;
@@ -124,4 +125,26 @@ body {
   to {
     transform: rotate(360deg);
   }
+}
+
+.submenu {
+  background-color: #59c3b1;
+  border-radius: 10px;
+  box-shadow: 0 0 2 0 #800080;
+  list-style: none;
+  color: #fff;
+  display: flex;
+  height: 40px;
+  margin: 0 15% 0 45%;
+  width: 40%;
+  z-index: 1;
+}
+
+.sub-item {
+  padding: 7px;
+}
+
+.sub-item:hover {
+  background-color: #800080;
+  cursor: pointer;
 }
