@@ -1,5 +1,4 @@
 body {
-
   background-color: #000000;
   margin: 0;
   padding: 0;
@@ -16,9 +15,10 @@ body {
 
 .content {
   color: #fff;
+  column-count: 2;
+  column-gap: 50px;
   position: absolute;
-  width: 90%;
-  margin: 0 5% 0 5%;
+  margin: 0 35% 5% 5%;
 }
 
 .form {
@@ -64,7 +64,7 @@ body {
 }
 
 .inner-text {
-  font: 8px;
+  font: 13px 'PT Sans', Arial, sans-serif;
   width: 50px;
   padding: 8px 0 0 14px;
   overflow: hidden;
