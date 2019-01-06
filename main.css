@@ -130,18 +130,17 @@ body {
 .submenu {
   background-color: #59c3b1;
   border-radius: 10px;
-  box-shadow: 0 0 2 0 #800080;
   list-style: none;
   color: #fff;
   display: flex;
   height: 40px;
-  margin: 0 15% 0 45%;
+  margin: -10% 15% 10% 45%;
   width: 40%;
   z-index: 1;
 }
 
 .sub-item {
-  padding: 7px;
+  padding: 10px 7px;
 }
 
 .sub-item:hover {
