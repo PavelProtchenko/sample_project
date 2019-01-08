@@ -8,11 +8,11 @@
 </head>
 <body>
   <ul id="main" class="main-menu">
-    <li id="m-menu" class="menu-item"><a>Main menu</a></li>
-    <li id="store" class="menu-item"><a>Store</a></li>
-    <li id="account" class="menu-item"><a>Account</a></li>
-    <li id="settings" class="menu-item"><a>Settings</a></li>
-    <li id="forum" class="menu-item"><a>Forum</a></li>
+    <li data-list="m-menu" class="menu-item"><a>Main menu</a></li>
+    <li data-list="store" class="menu-item"><a>Store</a></li>
+    <li data-list="account" class="menu-item"><a>Account</a></li>
+    <li data-list="settings" class="menu-item"><a>Settings</a></li>
+    <li data-list="forum" class="menu-item"><a>Forum</a></li>
   </ul>
   <div class="container">
     <div class="out-circle">
@@ -20,13 +20,27 @@
         <p class="inner-text">Some text is placed here</p>
       </div>
     </div>
-    <ul class="submenu">
+    <div class="tabs">
+      <div class="tabs-header">
+        <div class="tab-h active" data-tab="0">New tab</div>
+        <div class="tab-h" data-tab="1">21233435</div>
+        <div class="tab-h" data-tab="2">VCbvcbv</div>
+        <div class="tab-h" data-tab="3">BooFooPoo</div>
+      </div>
+      <div class="tabs-body">
+        <div class="tab-b">Some text</div>
+        <div class="tab-b">Some text wewfwe ndsnjsd dsjnsjndjsnd djsndjsndj jsndjnsdjn</div>
+        <div class="tab-b">Some text fvvdfdfbdfbfd</div>
+        <div class="tab-b">Some words fvvdfdfbdfbfd</div>
+      </div>
+    </div>
+    <!-- <ul class="submenu">
       <li class="sub-item"><a>New item</a></li>
       <li class="sub-item"><a>New item2</a></li>
       <li class="sub-item"><a>New item3</a></li>
       <li class="sub-item"><a>New item4</a></li>
       <li class="sub-item"><a>New item5</a></li>
-    </ul>
+    </ul> -->
     <div class ="content">
       <h1>Sample text</h1>
       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<iframe src="https://www.youtube.com/embed/tSSxFFy5Bak"></iframe> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.

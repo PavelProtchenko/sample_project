@@ -9,7 +9,7 @@ body {
   border-radius: 15px 15px 0 0;
   height: 100%; 
   margin: 0 10% 10px 10%;
-  position: absolute;
+  position: relative;
   width: 80%;
 }
 
@@ -17,7 +17,7 @@ body {
   color: #fff;
   column-count: 2;
   column-gap: 50px;
-  position: absolute;
+  position: relative;
   margin: 0 35% 5% 5%;
 }
 
@@ -147,4 +147,51 @@ body {
 .sub-item:hover {
   background-color: #800080;
   cursor: pointer;
+}
+
+.tabs {
+  /* overflow: hidden; */
+  width: 400px;
+  background-color: none;
+  margin: 50px auto;
+}
+
+.active {
+  border-bottom: 1px solid #000 !important;
+}
+
+.tab-b {
+  background-color: #59c3b1;
+  border: 1px solid #000;
+  display: none;
+  padding: 20px;
+  border: 1px solid #fff;
+}
+
+.tabs-body {
+  position: relative;
+  top: -1px;
+  z-index: 1;
+}
+
+.tab-b:first-child {
+  display: block;
+}
+
+.tab-h {
+  background-color: #59c3b1;
+  display: inline-block;
+  line-height: 30px;
+  border: 1px solid #fff;
+  padding: 5px 10px;
+  text-align: center;
+}
+
+.tab-h:hover {
+  cursor: pointer;
+}
+
+.tabs-header {
+  position: relative;
+  z-index: 2;
 }
