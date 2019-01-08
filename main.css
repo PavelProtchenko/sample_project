@@ -4,6 +4,37 @@ body {
   padding: 0;
 }
 
+.active {
+  border-bottom: 1px solid #000 !important;
+}
+
+.btn-primary {
+  background-color: #800080;
+  border: none;
+  border-radius: 5px;
+  width: 60px;
+  height: 30px;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  box-shadow: 0 0 0 1px;
+  cursor: pointer;
+}
+
+.circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin: 60px;
+  box-shadow: 0 0 4px rgba(0,0,0,.4);
+  animation-name: spin;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
 .container {
   background-color: #800080;
   border-radius: 15px 15px 0 0;
@@ -50,20 +81,6 @@ body {
   text-align: center;
 }
 
-.btn-primary {
-  background-color: #800080;
-  border: none;
-  border-radius: 5px;
-  width: 60px;
-  height: 30px;
-  color: #fff;
-}
-
-.btn-primary:hover {
-  box-shadow: 0 0 0 1px;
-  cursor: pointer;
-}
-
 .inner-text {
   font: 13px 'PT Sans', Arial, sans-serif;
   width: 50px;
@@ -89,19 +106,6 @@ body {
 .menu-item:hover {
   background-color: #800080;
   cursor: pointer;
-}
-
-.circle {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  background-color: #fff;
-  margin: 60px;
-  box-shadow: 0 0 4px rgba(0,0,0,.4);
-  animation-name: spin;
-  animation-duration: 5s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
 }
 
 .out-circle {
@@ -154,10 +158,6 @@ body {
   width: 400px;
   background-color: none;
   margin: 50px auto;
-}
-
-.active {
-  border-bottom: 1px solid #000 !important;
 }
 
 .tab-b {
