@@ -59,11 +59,12 @@ body {
   background-color: #59c3b1;
   border-radius: 10px;
   color: #fff;
-  margin: 0 0 0 37%;
+  margin: -50% 0 50% 37%;
   position: relative;
   width: 230px;
   height: 150px;
   padding: 23px;
+  z-index: 1;
 }
 
 .footer {
